@@ -1,0 +1,23 @@
+{
+    "name": "jampot5000/eloquent-scientist",
+    "description": "Allow the Scientist library to be used with the Laravel PHP framework.",
+    "keywords": ["scientist", "laravel", "testing", "experiment"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jamie Holcroft",
+            "email": "jholcroft@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "5.*",
+        "daylerees/scientist": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jampot5000\\EloquentScientist\\": "src"
+        }
+    }
+
+}
