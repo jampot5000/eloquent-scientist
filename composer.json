@@ -18,6 +18,15 @@
         "psr-4": {
             "Jampot5000\\EloquentScientist\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                 "Jampot5000\\EloquentScientist\\ServiceProvider"
+            ],
+            "aliases": {
+                "Scientist": "Jampot5000\\EloquentScientist\\Facade"
+            }
+        }
     }
-
 }
